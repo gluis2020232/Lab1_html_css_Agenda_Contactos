@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.div_registrarse{
+    background-color: #1A2537;
+    border-radius: 10px;
+}
+
+.div_registrarse:hover{
+    background: hsl(27, 92%, 36%);
+    border-radius: 32px;
+}
+
+#iniciarSesion {
+    text-decoration: none;
+    color: #fafbfd;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+     color: cadetblue;
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 450px;
+        margin-top: 150px;
+        border-radius: 2%;
+        background: #f5f6f8;
+    }
+}
+
+footer {
+    background-color: #324862;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+footer a {
+    background-color: #23376D;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a:hover   {
+    background-color: #045B62;
+}
